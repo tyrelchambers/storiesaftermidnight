@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Geizer";
+  src: url(./assets/Geizer.otf);
+
+}
+
+h1 {
+  font-family: "Geizer", sans-serif;
+  letter-spacing: 8px;
+}
+
+
+.section-title.light {
+  color: #f4d891;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.bg-dark {
+  background-color: #28141d;
+}
+
+.section-wrapper {
+  overflow: hidden;
+}
+.section-description {
+  max-width: 600px;
+  width: 100%;
+  color: #f6f6f6;
+  line-height: 1.8em;
+  text-align: center;
+  margin: 2em auto;
+  padding: 0 2em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.numbers {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 8px;
+}

@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Hero from './layouts/Hero/Hero';
+import HumbleBundles from './layouts/HumbleBundles/HumbleBundles';
+import Footer from './layouts/Footer/Footer';
+import GetStats from './components/GetStats/GetStats';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <GetStats />
+      <HumbleBundles />
+      <Footer/>
     </div>
   );
 }

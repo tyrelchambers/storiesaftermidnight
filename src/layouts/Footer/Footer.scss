@@ -1,0 +1,37 @@
+.partner-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  background-color: #0f0f0f;
+  overflow: hidden;
+}
+
+.social-list {
+  display: flex;
+
+}
+
+.social-item {
+  margin: 0 0.5em;
+  font-size: 2.4rem;
+  
+  a {
+    color: white;
+  }
+}
+
+.social-intro {
+  color: white;
+  text-align: center;
+}
+
+.social-intro.dim {
+  color: rgba(white, 0.5);
+  font-style: italic;
+}

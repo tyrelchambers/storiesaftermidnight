@@ -6,11 +6,12 @@
     {
       "src": "package.json",
       "use": "@now/static-build",
-      "config": { "distDir": "build" }
+      "config": { "distDir": "build" },
+      "env": {
+        "REACT_APP_YOUTUBE_API": "@youtube-key",
+        "REACT_APP_CHANNEL_ID": "@channel-id"
+      }
     }
-  ],
-  "env": {
-    "REACT_APP_YOUTUBE_API": "@youtube-key",
-    "REACT_APP_CHANNEL_ID": "@channel-id"
-  }
-}
+
+  ]
+  

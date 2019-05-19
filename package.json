@@ -9,7 +9,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "react-youtube": "^7.9.0"
+    "react-youtube": "^7.9.0",
+    "now-build": "react-scripts build"
+
   },
   "scripts": {
     "start": "react-scripts start",

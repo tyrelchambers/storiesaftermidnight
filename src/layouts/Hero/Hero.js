@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Hero.scss';
-import videoBG from '../../assets/videos/traffic.mp4';
+import bgImg from '../../assets/videos/bgimg.jpg';
 import GetVideo from '../../components/GetVideo/GetVideo';
 import Axios from 'axios';
 
@@ -22,27 +22,23 @@ export default function Hero() {
   }
 
   useEffect(() => {
-    
     getLatestVideo();
-  }, [])
+  }, []);
 
-  
   return (
     <div className="hero">
-      <video autoPlay muted loop id="heroVideo">
-        <source src={videoBG} type="video/mp4" />
-      </video>
+      <img src={bgImg} alt="" id="heroVideo"/>
       <div className="hero-body">
-        <div className="hero-title">
+        <div className="hero-title is-animate">
           <h1>Stories After Midnight</h1>
         </div>
-        <div className="yt-callout">
+        <div className="yt-callout is-animate">
            <a href="https://youtube.com/storiesaftermidnight" target="_blank"  rel="noopener noreferrer">
             <p>Check me out on </p>
             <i className="fab fa-youtube"></i>
            </a>
         </div>
-        <div className="hero-latest">
+        <div className="hero-latest is-animate">
           <h2 className="hero-latest-title">Latest Video</h2>
           <div className="hero-Video" id="latestVideo">
             <GetVideo 
